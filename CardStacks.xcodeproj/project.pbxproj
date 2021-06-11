@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416462292673959700FF096E /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416462282673959700FF096E /* CardContainerView.swift */; };
+		4164622C267395C700FF096E /* CardStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4164622B267395C700FF096E /* CardStackManager.swift */; };
 		41DBB28326738D8C00584B46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DBB28226738D8C00584B46 /* AppDelegate.swift */; };
 		41DBB28526738D8C00584B46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DBB28426738D8C00584B46 /* SceneDelegate.swift */; };
 		41DBB28726738D8C00584B46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DBB28626738D8C00584B46 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		416462282673959700FF096E /* CardContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
+		4164622B267395C700FF096E /* CardStackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackManager.swift; sourceTree = "<group>"; };
 		41DBB27F26738D8C00584B46 /* CardStacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardStacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DBB28226738D8C00584B46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41DBB28426738D8C00584B46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				41DBB28226738D8C00584B46 /* AppDelegate.swift */,
 				41DBB28426738D8C00584B46 /* SceneDelegate.swift */,
 				41DBB28626738D8C00584B46 /* ViewController.swift */,
+				416462282673959700FF096E /* CardContainerView.swift */,
+				4164622B267395C700FF096E /* CardStackManager.swift */,
 				41DBB28826738D8C00584B46 /* Main.storyboard */,
 				41DBB28B26738D8D00584B46 /* Assets.xcassets */,
 				41DBB28D26738D8D00584B46 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4164622C267395C700FF096E /* CardStackManager.swift in Sources */,
 				41DBB28726738D8C00584B46 /* ViewController.swift in Sources */,
 				41DBB28326738D8C00584B46 /* AppDelegate.swift in Sources */,
+				416462292673959700FF096E /* CardContainerView.swift in Sources */,
 				41DBB28526738D8C00584B46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
